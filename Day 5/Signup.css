@@ -1,0 +1,168 @@
+
+  .bgimgg{
+    /* background: fixed;
+    position: relative; */
+    background-image: url("https://img.freepik.com/free-photo/detail-rice-plant-sunset-valencia-with-plantation-out-focus-rice-grains-plant-seed_181624-25838.jpg?w=2000&t=st=1705992189~exp=1705992789~hmac=b5fdad31d7a1896dc685b496366ef980c83a5f0884b75a78e8557f407f5f14dc");
+  height: 100vh; 
+  width: 100vh;
+  background-size: cover;
+ 
+}
+.container{
+    height: 550px;
+    width: 400px;
+    background-color: rgba(238, 186, 89, 0.50);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    padding: 50px 35px;
+}
+.signbutttr{
+    font-size: 20px;
+width: 120px;
+height: 50px;
+    background-color: #d7d15e;
+    color: #0a0909;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.signimgg{
+    height: 99.4vh;
+    width: 100vw;
+}
+.POST{
+
+    height: 680px;
+    margin-bottom: 100px;
+}
+.reg{
+    position: relative;
+    top: -300px;
+    left: 190%;
+}
+/* 
+  .signu{
+    height: 740px;
+  } */
+  .centersign{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 29vw;
+    background-color: rgba(238, 186, 89, 0.50);
+    border-radius: 10px;
+  }
+  
+  .centersign h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+  }
+  
+  .centersign form{
+    padding: 0 40px;
+   
+    box-sizing: border-box;
+  }
+  
+  form .txt_field{
+    position: relative;
+    border-bottom: 2px solid  rgba(238, 186, 89, 0.50);
+    margin: 40px 0;
+  }
+  
+  .txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background-color: aliceblue;
+    outline: none;
+  }
+  
+  .txt_field label{
+    position: absolute;
+    top: -30px;
+    left: 5px;
+    color: #070707;
+    /* transform: translateY(-50%); */
+    font-size: 16px;
+    pointer-events: none;
+  }
+  
+  /* .txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background: #070707;
+    transition: .5s;
+  } */
+  
+  /* .txt_field input:focus ~ label,
+  .txt_field input:valid ~ label{
+    top: -5px;
+    color: #0a0a0a;
+  } */
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+    padding-left: 70px;
+}
+  
+  
+  .pass{
+    margin: -5px 0 20px 5px;
+    color: #0a0a0a;
+    cursor: pointer;
+  }
+  
+  .pass:hover{
+    text-decoration: underline;
+  }
+  
+  input[type="Submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+  
+  }
+  
+  input[type="Submit"]:hover{
+    background: #2691d9;
+    color: #e9f4fb;
+    transition: .5s;
+  }
+  
+  .signup_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #090909;
+  }
+  
+  .signup_link a{
+    color: #2691d9;
+    text-decoration: none;
+  }
+  
+  .signup_link a:hover{
+    text-decoration: underline;
+  }
+  
+  .HomeAbout{
+    width: 100vw;
+    height: 25vh;
+  }
