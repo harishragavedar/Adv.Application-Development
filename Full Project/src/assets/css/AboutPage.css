@@ -1,0 +1,51 @@
+.abt-page {
+    margin: 0;
+    padding: 20px;
+}
+.cont-abt{
+    margin-top: 50px;
+}
+.vision-mission {
+    margin-top: 20px;
+}
+.vmcard{
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+.feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-cards .fcard {
+    flex: 1 0 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.testimonial {
+    margin-top: 20px;
+}
+
+.carousel {
+    width: 100%;
+    /* Adjust as needed */
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: 500px;
+    display: none;
+    margin: 60px;
+    margin-right: 60px; /* Hide all images by default */
+  }
+  
+  .carousel img:first-child {
+    display: block; /* Display the first image initially */
+  }

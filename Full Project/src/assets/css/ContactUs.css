@@ -1,0 +1,83 @@
+/* Updated CSS with unique class names */
+
+.my-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 550px;
+  background: #e2f1e2;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.my-container .my-title h1 {
+  color: rgba(9, 24, 23, 0.573);
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.my-contact-form {
+  display: flex;
+}
+
+.my-input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.my-input-fields,
+.my-msg {
+  width: 48%;
+}
+
+.my-input-fields .my-input,
+.my-msg textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #a9b4b9;
+  padding: 10px;
+  color: rgba(9, 24, 23, 0.573);
+  width: 100%;
+}
+
+.my-msg textarea {
+  height: 212px;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(9, 24, 23, 0.573);
+}
+::-moz-placeholder {
+  color: rgba(9, 24, 23, 0.573);
+}
+:-ms-input-placeholder {
+  color: rgba(9, 24, 23, 0.573);
+}
+
+.my-btn {
+  background: #39b7dd;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  .my-contact-form {
+    flex-direction: column;
+  }
+  .my-msg textarea {
+    height: 80px;
+  }
+  .my-input-fields,
+  .my-msg {
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+
+.utable {
+    width: 1200px;
+    border-collapse: collapse;
+    margin: 70px;
+}
+
+.uthead, .utdata {
+    border: 2px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.uthead {
+    background-color: #f2f2f2;
+}
+
+/* .utrow:nth-child(even) {
+    background-color: #f2f2f2;
+} */
+
+/* Styles for action buttons */
+.utbttn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.utbttn:hover {
+    background-color: #0056b3;
+}
+
+.utbttn:active {
+    background-color: #0056b3;
+}

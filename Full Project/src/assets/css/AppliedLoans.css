@@ -1,0 +1,57 @@
+
+.appliedcard-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    margin: 20px;
+    margin-left: 100px;
+    
+  }
+  
+  .acard {
+    padding: 16px;
+    margin: 16px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+   
+  }
+  
+  .acard-title {
+    color: #333;
+  }
+  
+  .acard-content {
+    color: #666;
+  }
+
+  .acard-title
+  {
+    padding-left:20px;
+    padding-top: 3px;
+  }
+  .appliedcard{
+  background-color: #cccccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+   /* or any other shade of grey you prefer */
+  padding: 10px; /* Adjust padding as needed */
+  width: 500px;
+  margin: 20px;
+  }
+  /* For smaller devices */
+@media only screen and (max-width: 768px) {
+  .appliedcard-list {
+    grid-template-columns: repeat(1, 1fr); /* Change to a single column layout */
+    margin-left: 20px; /* Adjust margin for smaller screens */
+  }
+
+  .appliedcard {
+    width: 100%; /* Occupy full width */
+    margin-bottom: 10px; /* Reduce margin between cards */
+  }
+
+  .acard-title {
+    padding-left: 10px; /* Adjust padding */
+  }
+}
+
+  
